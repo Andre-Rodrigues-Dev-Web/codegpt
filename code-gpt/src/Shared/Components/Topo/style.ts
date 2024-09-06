@@ -14,8 +14,11 @@ const Logo = styled.div`
     a{
         h1{
             color: #fff;
+            font-size: clamp(1.25rem, 0.556vw + 1.8rem, 2.8rem);
+            font-weight: 400;
             span{
                 color: #2DC88F;
+                font-weight: 600;
                 text-transform: uppercase;
             }
         }
